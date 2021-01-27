@@ -1,21 +1,21 @@
-main {
+div {
 	width: 970px;
 	padding: 10px;
 	background-color: darkblue;
 }
-header, nav, section, footer {
+header, nav, article, footer {
 	border-radius: 10px;
 	padding: 10px;
 }
 header {
 	background-color: red;
 }
-article {
+main {
 	margin: 10px 0;
 	padding: 0;
 	justify-content: space-between;
 }
-nav, section {
+nav, article {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -24,7 +24,7 @@ nav {
 	margin: 0;
 	background-color:darkcyan;
 }
-section {
+article {
 	width: 730px;
 	margin-left: 15px;
 	margin-right: 0;
