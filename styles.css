@@ -1,0 +1,54 @@
+main {
+	width: 970px;
+	padding: 10px;
+	background-color: darkblue;
+}
+header, nav, section, footer {
+	border-radius: 10px;
+	padding: 10px;
+}
+header {
+	background-color: red;
+}
+article {
+	margin: 10px 0;
+	padding: 0;
+	justify-content: space-between;
+}
+nav, section {
+	display: inline-block;
+	vertical-align: top;
+}
+nav {
+	width: 180px;
+	margin: 0;
+	background-color:darkcyan;
+}
+section {
+	width: 730px;
+	margin-left: 15px;
+	margin-right: 0;
+	background-color: black;
+}
+footer {
+	background-color: grey;
+}
+h1, h2, p {
+	color: white;
+}
+h1 {
+	margin: 12px 0;
+}
+p {
+	display: inline;
+}
+a {
+	color: aqua;
+}
+em {
+	color: purple;
+	font-style: normal;
+}
+li {
+	color: white;
+}
